@@ -1,0 +1,236 @@
+* {
+      padding: 0px;
+      margin: 0px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      box-sizing: border-box;
+  }
+
+  #header-place {
+      height: 4em;
+  }
+
+  #header {
+      position: fixed;
+      width: 95%;
+      background-color: #2B3C43;
+      height: 4em;
+  }
+
+  body {
+      background-color: #2B3C43;
+      transition: .5s 0s;
+  }
+
+  #array {
+      background-color: #3C555E;
+      width: 95%;
+      margin: auto;
+      border-radius: 5px;
+  }
+
+  #nav-bar {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  #header-img {
+      height: 4em;
+      display: block;
+      max-width: 100%;
+  }
+
+  #nav-link {
+      font-size: 1.1em;
+      text-decoration: none;
+      color: lightgrey;
+  }
+
+  #main {
+      margin: 15px auto;
+      width: 95%;
+      border-radius: 5px;
+  }
+
+  .section {
+      border: 2px solid #27363C;
+      border-radius: 5px;
+  }
+
+  .article {
+      padding: 15px;
+      background-color: #27363C;
+      color: lightgrey;
+  }
+
+  .article1, .article2, .article3 {
+      border-bottom-style: groove;
+      border-bottom-width: 1px;
+      border-bottom-color: lightgrey;
+  }
+
+  #inputlabel {
+      display: block;
+      text-align: center;
+      padding-top: 15px;
+      font-size: 2.5em;
+      font-weight: bold;
+  }
+
+  .inputtext {
+      display: block;
+      text-align: center;
+      padding: 5px;
+      margin: 25px auto;
+      width: 22em;
+      font-size: 1.3em;
+      transition: .5s 0s;
+  }
+
+  .inputbutton {
+      display: block;
+      width: 12em;
+      height: 3em;
+      margin: auto;
+      background-color: yellow;
+      border: none;
+      font-size: 1.3em;
+      font-weight: 600;
+      color: black;
+      animation: myani 5s alternate;
+      transition: .5s 0s;
+      border-radius: 5px;
+  }
+    .pricebutton {
+        width: 8em;
+        height: 2.8em;
+        margin: 15px auto;
+    }
+    .inputbutton:hover {
+        opacity: 0.8;
+}
+ @keyframes myani {
+    50% {
+        transform: scale(1.1)
+        background: linear-gradient(to bottom, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%)
+    }
+ }
+  #videodesc {
+      background-color: #27363C;
+      margin-top: 15px;
+      border-radius: 5px;
+  }
+
+  #videopresentation {
+      width: 95%;
+      margin: auto;
+  }
+
+  #video {
+      width: 100%;
+      height: 350px;
+      margin: 15px auto;
+      transition: .5s 0s;
+  }
+
+  .article-header {
+      font-size: 2em;
+      padding-bottom: 5px;
+  }
+
+  #feature {
+      background-color:
+  }
+  .article-section {
+      margin: 15px auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      background-color: ;
+      border-radius: 5px;
+  }
+  .pricelist {
+      width: 64%;
+      text-align: center;
+      margin: 5px auto;
+      background-color: #;
+      border-radius: 5px;
+      border: 1px solid black;
+  }
+  .pricelist-ul {
+      list-style: none;
+  }
+  .price-header {
+      font-size: 1.8em;
+      font-weight: bold;
+      background-color: #27363C;
+      padding:10px 0px;
+  }
+  .price-price {
+      padding: 10px 0px;
+      font-weight: bold;
+      font-size: 2.4em;
+  }
+  .price-desc {
+      font-size: 1.7em;
+      padding: 5px;
+      color: black;
+  }
+  #footer {
+      background-color: #3C555E;
+      width: 95%;
+      margin: auto;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #contacts {
+
+  }
+    .footer-a {
+        font-size: 1.4em;
+        text-decoration: none;
+        color: black;
+        margin: 4px 6px;
+    }
+
+    @media (min-width: 1200px) {
+        #array {
+            width: 65%;
+        }
+        body {
+            font-size: 0.9em;
+        }
+        #header {
+            width: 65%;
+        }
+        #nav-bar {
+            width: 100%;
+            justify-content: space-around;
+        }
+        #pricelist {
+            font-size: 0.7em;
+        }
+    }
+    @media (min-width: 1500px) {
+        #array {
+            width: 50%;
+        }
+    #header {
+        width: 50%;
+    }
+    #nav-bar {
+        width: 100%;
+        justify-content: space-around;
+    }
+        .article-section {
+            flex-direction: row;
+            font-size: 0.8em;
+        }
+    }
